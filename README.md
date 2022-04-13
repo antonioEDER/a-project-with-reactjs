@@ -26,12 +26,4 @@ Yup;
 
 
 # JSX
-Extensão de Sintaxe de JS
-const nome = 'João'
-const element = "<h1>Bom dia {nome}!<h1/>"
 
-Padrão CamelCase e declaração classes com ClassName
-ex: '<div tabIndex="0"  className="text-red" onClick"Salvar()"></div>'
-
-Props -> Propriedades
-State -> Estado
