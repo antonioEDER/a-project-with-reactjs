@@ -28,6 +28,7 @@ const Comentario = props => {
             <div>{ props.email }</div>
             <div>{ props.data.toString() }</div>
             <div>{ props.children }</div>
+            <button onClick={props.onRemove}>X Limpar</button>
         </div>
      )
 };
