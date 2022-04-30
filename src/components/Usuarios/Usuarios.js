@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 
-import AdicionarUsuario from '../AdicionarUsuario/AdicionarUsuario'
 import Usuario from '../Usuario/Usuario'
 
 function Usuarios() {
@@ -22,10 +21,6 @@ function Usuarios() {
     })
   }, [])
 
-  const adicionarUsuario = usuario => {
-    setUsuarios(usuariosAtuais => [...usuariosAtuais, usuario])
-  }
-
   const removerUsuario = usuario => {
     if (window.confirm(`Tem certeza que deseja remover "${usuario.nome} ${usuario.sobrenome}"?`)) {
       fetch(`https://reqres.in/api/users/${usuario.id}`, {
@@ -41,8 +36,6 @@ function Usuarios() {
   
   return (
     <>
-      <AdicionarUsuario adicionarUsuario={adicionarUsuario} />
-
       {usuarios.map(usuario => (
         <Usuario key={usuario.id}
           usuario={usuario}
