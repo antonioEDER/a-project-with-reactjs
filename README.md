@@ -31,6 +31,8 @@ Hooks;
 Fazer rotas;
 
 Redux;
+    - Controlador de estado da aplicação.
+    -> Componet -> Action -> Reducer -> Store
 
 Validação de Formulários;
 

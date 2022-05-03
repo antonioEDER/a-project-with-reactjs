@@ -6,6 +6,7 @@ import Usuarios from './components/Usuarios/Usuarios'
 import AdicionarUsuario from './components/AdicionarUsuario/AdicionarUsuario'
 import DetalhesUsuario from './components/DetalhesUsuario/DetalhesUsuario'
 import Home from './components/Home/Home'
+import Frutaria from './components/Frutaria/ListaFrutas'
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
               </li>
               <li>
                 <NavLink to="/adicionar">Adicionar Usuário</NavLink>
+              </li>
+              <li>
+                <NavLink to="/frutaria">Adicionar Frutas</NavLink>
               </li>
             </ul>
           </nav>
@@ -40,6 +44,9 @@ function App() {
             </Route>
             <Route path="/adicionar">
               <AdicionarUsuario />
+            </Route>
+            <Route path="/frutaria">
+              <Frutaria />
             </Route>
             <Route path="*">
               <h1>404</h1>
