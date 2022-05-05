@@ -40,6 +40,13 @@ Formik;
 
 Yup;
 
+# Heroku
 
-# JSX
+- yarn build
+- yarn global add serve
+- serve -s build
+- heroku.com
+- https://devcenter.heroku.com/articles/heroku-cli
+- heroku login
+- heroku git:remote -a app-react-1993
 
