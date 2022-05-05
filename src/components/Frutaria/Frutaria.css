@@ -88,3 +88,8 @@
     background-color: #e74c3c;
     box-shadow: 0 0 0 0.2rem rgba(231, 76, 60, 0.5);
   }
+
+  .error-form {
+    font-size: 8px;
+    color: red;
+  }
