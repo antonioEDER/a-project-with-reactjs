@@ -49,4 +49,5 @@ Yup;
 - https://devcenter.heroku.com/articles/heroku-cli
 - heroku login
 - heroku git:remote -a app-react-1993
+- git push heroku main
 
